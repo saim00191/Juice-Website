@@ -11,7 +11,7 @@ const barlow_condensed = Barlow_Condensed({
 
 export const metadata: Metadata = {
   title: "Juice Lab",
-  description: "Developed By Saim Raza",
+  description: "",
 };
 
 export default function RootLayout({
