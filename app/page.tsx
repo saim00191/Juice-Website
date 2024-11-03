@@ -7,7 +7,7 @@ import Reservation from "@/components/Reservation/Reservation"
 import Teams from "@/components/Teams/Team"
 const HomePage = () => {
   return (
-    <div className="bg-green-100">
+    <div className="bg-green-100 relative z-10">
       <Hero /> 
       <Features />
       <PopularJuices />

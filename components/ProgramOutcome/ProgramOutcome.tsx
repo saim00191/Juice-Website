@@ -3,7 +3,7 @@ import Container from "@/shared/Container";
 const ProgramOutcome = () => {
   return (
     <>
-      <Container className="py-10 relative z-10 md:py-16 flex flex-col gap-4 justify-center items-center">
+      <Container className="py-10  md:py-16 flex flex-col gap-4 justify-center items-center">
         <h2 className="uppercase text-3xl md:text-5xl text-center font-semibold">
           Join for Hot{" "}
           <span className="text-green-600 text-4xl md:text-6xl font-bold">

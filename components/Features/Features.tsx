@@ -28,7 +28,7 @@ const Features = () => {
   ];
 
   return (
-    <div className="py-5 relative z-10">
+    <div className="py-5 ">
       <h1 className="font-semibold uppercase text-[32px] text-center mb-6">
         <span className="font-bold text-[38px] uppercase text-green-800">
           Pure

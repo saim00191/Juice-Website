@@ -36,7 +36,7 @@ const Hero = () => {
       responsive={responsive}
       showDots={false}
     >
-      <div className="bg-yellow-900 relative z-10 w-full h-auto md:h-[88vh] pb-6 clip_path1 flex flex-col items-center justify-center">
+      <div className="bg-yellow-900 w-full h-auto md:h-[88vh] pb-6 clip_path1 flex flex-col items-center justify-center">
         <div className="w-[80%]  mt-0 md:-mt-16 grid grid-cols-1 md:grid-cols-2 items-center justify-center gap-6 mx-auto">
           <Image src={Img1} alt="Img1" />
           <div>

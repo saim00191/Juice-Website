@@ -71,7 +71,7 @@ const PopularJuices = () => {
   ];
 
   return (
-    <div className="py-10 relative z-10">
+    <div className="py-10 ">
       <h1 className="text-[40px] font-semibold uppercase text-center">
         Our popular{" "}
         <span className="font-bold text-[45px] text-green-800">Juices</span>

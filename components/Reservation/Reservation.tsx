@@ -4,7 +4,7 @@ import Text from "./Text";
 
 const Reservation = () => {
   return (
-    <div className="bg-green-600 relative z-10 py-8  flex flex-col md:flex-row justify-between items-center">
+    <div className="bg-green-600 py-8  flex flex-col md:flex-row justify-between items-center">
       <Container className="flex flex-col md:flex-row">
         <Text />
         <div className="w-full md:w-1/2 p-4">

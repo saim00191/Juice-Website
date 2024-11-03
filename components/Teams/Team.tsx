@@ -11,7 +11,7 @@ const Teams = () => {
     { name: "Levi Archer", position: "Junoir Chef", image: Image3 },
   ];
   return (
-    <div className="py-10 z-10 relative">
+    <div className="py-10">
       <Container>
         <h1 className="text-[32px] font-semibold uppercase text-center">
           Our <span className="text-green-600 text-[38px] font-bold">Team</span>
