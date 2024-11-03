@@ -45,7 +45,7 @@ const Hero = () => {
             </h2>
             <br />
             <h3 className="text-xl h-16  font-bold uppercase text-[35px] text-white -mt-2">
-            A Refreshing Symphony of Flavors!
+            A Refreshing Symphony of <br/>Flavors!
             </h3>
             <br />
             <h4 className="text-gray-300 text-[18px]">
@@ -68,7 +68,7 @@ const Hero = () => {
             </h2>
             <br />
             <h3 className="text-xl  h-16 font-bold uppercase text-[35px] text-white -mt-2">
-              Pouring happiness, one glass at a time!
+              Pouring happiness, one glass at <br/> a time!
             </h3>
             <br />
             <h4 className="text-gray-300 text-[18px]">
