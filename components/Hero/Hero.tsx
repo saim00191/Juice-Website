@@ -45,7 +45,7 @@ const Hero = () => {
             </h2>
             <br />
             <h3 className="text-xl h-16  font-bold uppercase text-[35px] text-white -mt-2">
-              Refreshingly delicious chemistry!
+            A Refreshing Symphony of Flavors!
             </h3>
             <br />
             <h4 className="text-gray-300 text-[18px]">
