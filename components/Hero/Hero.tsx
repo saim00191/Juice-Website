@@ -44,7 +44,7 @@ const Hero = () => {
               Pure Tropical Bliss
             </h2>
             <br />
-            <h3 className="text-xl font-bold uppercase text-[35px] text-white -mt-2">
+            <h3 className="text-xl h-16  font-bold uppercase text-[35px] text-white -mt-2">
               Refreshingly delicious chemistry!
             </h3>
             <br />
@@ -67,7 +67,7 @@ const Hero = () => {
               Refreshing Pomegranate Bliss
             </h2>
             <br />
-            <h3 className="text-xl font-bold uppercase text-[35px] text-white -mt-2">
+            <h3 className="text-xl  h-16 font-bold uppercase text-[35px] text-white -mt-2">
               Pouring happiness, one glass at a time!
             </h3>
             <br />
