@@ -71,7 +71,7 @@ export default function Navbar() {
         <div
           className={`fixed inset-0  z-50 bg-emerald-700 transform ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
-          } transition-transform duration-300 ease-in-out lg:hidden`}
+          } transition-transform duration-300 ease-in-out lg:hidden h-full `}
         >
           <div className="flex flex-col h-full">
             <div className="flex justify-between items-center h-20 px-4">
