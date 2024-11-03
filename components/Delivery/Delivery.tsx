@@ -30,7 +30,7 @@ const Delivery = () => {
     };
   }, []);
   return (
-    <div className="py-10">
+    <div className="py-10 relative z-10">
       <Container className="mx-auto">
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 mb-6 md:mb-0 " ref={imageRef}>

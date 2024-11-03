@@ -69,7 +69,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       {isMobile && (
         <div
-          className={`fixed inset-0 z-50 bg-emerald-700 transform ${
+          className={`fixed inset-0  z-50 bg-emerald-700 transform ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
           } transition-transform duration-300 ease-in-out lg:hidden`}
         >
