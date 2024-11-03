@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip_path1 {
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 88%, 0 100%, 0% 50%);
+}
+
+.clip_path2 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 88%, 0 75%, 0% 50%);
+}
+
+@media (max-width: 768px) {
+  .clip_path1,
+  .clip_path2 {
+    clip-path: none;
+  }
+}
+@keyframes bikeAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.animate-bike {
+  animation: bikeAnimation 3s linear;
+}
