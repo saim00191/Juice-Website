@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark {
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
 .clip_path1 {
   clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 88%, 0 100%, 0% 50%);
 }
